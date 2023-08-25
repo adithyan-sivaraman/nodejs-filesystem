@@ -1,4 +1,4 @@
-# Your Project Name
+# Nodejs-filesystem
 
 This project provides APIs for creating and managing text files.
 
@@ -9,11 +9,11 @@ This project provides APIs for creating and managing text files.
 **Endpoint**: `http://localhost:3000/createTxtFile`
 **Method**: GET
 
-Creates a new text file with a timestamp as its content.
+Creates a new text file with a timestamp as its text content.
 
 **Request Parameters**
 
-None required.
+Not required.
 
 **Example Request**
 
@@ -25,7 +25,7 @@ Text file 20-08-2023_15-30-45.txt created successfully
 **Endpoint**: `http://localhost:3000/fetchFiles`
 **Method**: GET
 
-Retrieves a list of files from the designated folder.
+Retrieves a list of files from the specific folder.
 
 **Request Parameters**
 
@@ -39,7 +39,7 @@ HTML table with file details
 ## Installation and Setup
 
 1. Clone this repository.
-2. Install dependencies using `npm install`.
+2. Install packages using `npm install`.
 3. Start the server using `npm start`.
 
 ## Usage
